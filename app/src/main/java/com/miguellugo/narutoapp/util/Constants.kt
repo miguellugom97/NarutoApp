@@ -6,4 +6,6 @@ object Constants {
     const val NINJA_DATABASE_TABLE = "ninja_table"
 
     const val NINJA_REMOTE_KEY_DATABASE_TABLE = "ninja_remote_key_table"
+
+    const val NARUTO_DATABASE = "naruto_database"
 }
