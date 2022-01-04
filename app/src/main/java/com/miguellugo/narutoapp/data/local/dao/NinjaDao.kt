@@ -13,7 +13,7 @@ interface NinjaDao {
 //    @Query("SELECT * FROM ninja_remote_key_table ORDER BY id ASC")
 //    fun getAllNinjas(): PagingSource<Int, Ninja>
 //
-//    @Query("SELECT *FROM ninja_remote_key_table WHERE id=:ninjaId")
+//    @Query("SELECT *FROM ninja_remote_key_table WHERE id= :ninjaId")
 //    fun getSelectedNinja(ninjaId: Int) : Ninja
 //
 //    @Insert(onConflict = OnConflictStrategy.REPLACE)

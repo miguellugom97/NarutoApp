@@ -3,7 +3,9 @@ package com.miguellugo.narutoapp.domain.model
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.miguellugo.narutoapp.util.Constants.NINJA_DATABASE_TABLE
+import kotlinx.serialization.Serializable
 
+@Serializable
 @Entity(tableName = NINJA_DATABASE_TABLE)
 data class Ninja(
     @PrimaryKey(autoGenerate = false)
